@@ -1,5 +1,5 @@
 # STS role and target account
-Sts.Role: arn:aws:iam::543279062384:role/admin
+Sts.Role: arn:aws:iam::003342916324:role/admin
 
 # Stack settings
 Stack.Name: microtrader-production
@@ -25,8 +25,9 @@ Stack.Inputs.DatabasePassword: AQICAHgUbjHMPVh5UIkKQ7hs45AmaJi63619ROLn46mO+iIpD
 
 # Application settings
 Stack.Inputs.ApplicationDnsName: prod-microtrader
-Stack.Inputs.ApplicationImageId: ami-f8ec3f80
-Stack.Inputs.ApplicationKeyName: docker-production-aws
+Stack.Inputs.ApplicationImageId: ami-0b170143fdcd702d0
+# Key used to ssh into host
+Stack.Inputs.ApplicationKeyName: Work
 
 # ECS task runner settings
 Stack.Inputs.EcsTaskRunnerVersion: rVuUvROBlMttSPJtTv71MIPZnQn8BN0r
